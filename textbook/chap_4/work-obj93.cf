@@ -1,7 +1,13 @@
 v 4
+file . "1c_tb.vhdl" "f27c27ee5a3e102d3c689e1fb7d4cab5869a1d4b" "20200921003940.200":
+  entity ex_1c_tb at 1( 0) + 0 on 17;
+  architecture test of ex_1c_tb at 7( 78) + 0 on 18;
 file . "1b_tb.vhdl" "3f431b492251acb10b50cd3cb71264ceb0bd1652" "20200921002532.414":
   entity ex_1b_tb at 1( 0) + 0 on 13;
   architecture test of ex_1b_tb at 7( 78) + 0 on 14;
 file . "1b.vhdl" "9cefbe7e0208360f27bc425d239ffd74104e496b" "20200921002401.311":
   entity ex_1b at 1( 0) + 0 on 11;
   architecture exercise of ex_1b at 9( 128) + 0 on 12;
+file . "1c.vhdl" "db0a5041e8f9f029c862c44b62a709729b68a5ef" "20200921003933.839":
+  entity ex_1c at 1( 0) + 0 on 15;
+  architecture exercise of ex_1c at 9( 128) + 0 on 16;
