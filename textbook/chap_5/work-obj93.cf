@@ -1,4 +1,7 @@
 v 4
+file . "2_case_tb.vhdl" "8c0deee1cb6180b53f14344fb7b6a81a1b17c9c8" "20200921211116.347":
+  entity ex_2_case_tb at 1( 0) + 0 on 69;
+  architecture test of ex_2_case_tb at 7( 86) + 0 on 70;
 file . "1e_if_tb.vhdl" "86a7081bf76bef6f0cc23d4bf7d18f7e1553e1d3" "20200921202442.215":
   entity ex_1e_if_tb at 1( 0) + 0 on 55;
   architecture test of ex_1e_if_tb at 7( 84) + 0 on 56;
@@ -59,3 +62,6 @@ file . "1e_case.vhdl" "74634782e9a913ad0bbc38c4cf0dba5d1c7707f4" "20200921202029
 file . "1e_if.vhdl" "ee1634155ffbec049072d6a0adefd523cc0d3df7" "20200921202436.571":
   entity ex_1e_if at 1( 0) + 0 on 53;
   architecture exercise of ex_1e_if at 9( 134) + 0 on 54;
+file . "2_case.vhdl" "59a8463d1de81b75bd2d8c2a45b1b9beac0c5f5d" "20200921211402.760":
+  entity ex_2_case at 1( 0) + 0 on 71;
+  architecture exercise of ex_2_case at 9( 155) + 0 on 72;
