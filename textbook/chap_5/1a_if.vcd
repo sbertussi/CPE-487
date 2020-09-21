@@ -1,0 +1,56 @@
+$date
+  Mon Sep 21 13:18:15 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module ex_1a_if_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # f $end
+$scope module exercise $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & f $end
+$var reg 2 ' ab[1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+X"
+1#
+X$
+X%
+1&
+bXX '
+#1000000
+1!
+1"
+1$
+1%
+b11 '
+#2000000
+0"
+0%
+b10 '
+#3000000
+0!
+1"
+0$
+1%
+b01 '
+#4000000
+0"
+0#
+0%
+0&
+b00 '
+#5000000
