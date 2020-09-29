@@ -1,4 +1,7 @@
 v 4
+file . "5_beh_tb.vhdl" "ed2c35f74baf9031f1928f578ce2d661c3be2bd8" "20200929170424.352":
+  entity ex_5_beh_tb at 1( 0) + 0 on 71;
+  architecture test of ex_5_beh_tb at 7( 84) + 0 on 72;
 file . "5_eq_tb.vhdl" "cafe9b291b7c2446934d7264d7e60b8a14714643" "20200929165400.469":
   entity ex_5_eq_tb at 1( 0) + 0 on 67;
   architecture test of ex_5_eq_tb at 7( 82) + 0 on 68;
@@ -26,3 +29,6 @@ file . "4.vhdl" "aef2fd310ae7451df4bd5274900c15acd1577b6f" "20200929144619.003":
 file . "5_eq.vhdl" "acb3670e8abfbb0b3e768064144f517d40d75c5a" "20200929165333.193":
   entity ex_5_eq at 1( 0) + 0 on 65;
   architecture exercise of ex_5_eq at 9( 139) + 0 on 66;
+file . "5_beh.vhdl" "f9f7a2e64452fb883c79bdfed808e310ca4699cf" "20200929170419.162":
+  entity ex_5_beh at 1( 0) + 0 on 69;
+  architecture exercise of ex_5_beh at 9( 141) + 0 on 70;
