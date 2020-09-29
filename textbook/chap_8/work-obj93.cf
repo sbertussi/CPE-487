@@ -1,0 +1,7 @@
+v 4
+file . "2.vhdl" "00a1a1abcb834fc46320c1cbf812b3bccb464ced" "20200929230019.680":
+  entity fsm_2 at 1( 0) + 0 on 33;
+  architecture exercise of fsm_2 at 9( 149) + 0 on 34;
+file . "2_tb.vhdl" "8ed2e6131589feb9900a3353cfb50f40aa6fb1e6" "20200929225311.046":
+  entity ex_2_tb at 1( 0) + 0 on 29;
+  architecture test of ex_2_tb at 7( 76) + 0 on 30;
