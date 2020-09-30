@@ -1,0 +1,116 @@
+$date
+  Tue Sep 29 22:01:39 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module ex_11_tb $end
+$var reg 1 ! x1 $end
+$var reg 1 " x2 $end
+$var reg 1 # clk $end
+$var reg 1 $ z $end
+$var reg 3 % y[2:0] $end
+$scope module exercise $end
+$var reg 1 & x1 $end
+$var reg 1 ' x2 $end
+$var reg 1 ( clk $end
+$var reg 1 ) z $end
+$var reg 3 * y[2:0] $end
+$comment ps is not handled $end
+$comment ns is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+X"
+0#
+1$
+b001 %
+X&
+X'
+0(
+1)
+b001 *
+#1000000
+1#
+b100 %
+1(
+1)
+b100 *
+#2000000
+0#
+0(
+#3000000
+0"
+0$
+0'
+0)
+#4000000
+1#
+1$
+b001 %
+1(
+1)
+b001 *
+#5000000
+0#
+0(
+#6000000
+0!
+X"
+0&
+X'
+1)
+#7000000
+1#
+0$
+b010 %
+1(
+0)
+b010 *
+#8000000
+0#
+0(
+#9000000
+1!
+1&
+#10000000
+1#
+1(
+#11000000
+0#
+0(
+#12000000
+0!
+0&
+#13000000
+1#
+1$
+b100 %
+1(
+1)
+b100 *
+#14000000
+0#
+0(
+#15000000
+X!
+1"
+X&
+1'
+1)
+#16000000
+1#
+1(
+#17000000
+0#
+0(
+#18000000
