@@ -1,0 +1,131 @@
+$date
+  Tue Sep 29 21:46:23 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module ex_10_tb $end
+$var reg 1 ! x $end
+$var reg 1 " clk $end
+$var reg 1 # z $end
+$var reg 3 $ y[2:0] $end
+$scope module exercise $end
+$var reg 1 % x $end
+$var reg 1 & clk $end
+$var reg 1 ' z $end
+$var reg 3 ( y[2:0] $end
+$comment ps is not handled $end
+$comment ns is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+1#
+b100 $
+0%
+0&
+1'
+b100 (
+#1000000
+1"
+0#
+b010 $
+1&
+0'
+b010 (
+#2000000
+0"
+0&
+#3000000
+#4000000
+1"
+1#
+b100 $
+1&
+1'
+b100 (
+#5000000
+0"
+0&
+#6000000
+1!
+1%
+1'
+#7000000
+1"
+0#
+b010 $
+1&
+0'
+b010 (
+#8000000
+0"
+0&
+#9000000
+#10000000
+1"
+1#
+b001 $
+1&
+1'
+b001 (
+#11000000
+0"
+0&
+#12000000
+0!
+0%
+1'
+#13000000
+1"
+b100 $
+1&
+1'
+b100 (
+#14000000
+0"
+0&
+#15000000
+#16000000
+1"
+0#
+b010 $
+1&
+0'
+b010 (
+#17000000
+0"
+0&
+#18000000
+1!
+1%
+#19000000
+1"
+1#
+b001 $
+1&
+1'
+b001 (
+#20000000
+0"
+0&
+#21000000
+#22000000
+1"
+b100 $
+1&
+1'
+b100 (
+#23000000
+0"
+0&
+#24000000

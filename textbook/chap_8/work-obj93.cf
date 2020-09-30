@@ -1,4 +1,7 @@
 v 4
+file . "10_tb.vhdl" "90c261626154b4f958f99f353b2d9a1f2fad59c5" "20200930014609.673":
+  entity ex_10_tb at 1( 0) + 0 on 71;
+  architecture test of ex_10_tb at 7( 78) + 0 on 72;
 file . "9.vhdl" "f01f020de11c946861ab7f15fcf80151be1ca835" "20200930013506.152":
   entity fsm_9 at 1( 0) + 0 on 63;
   architecture exercise of fsm_9 at 10( 185) + 0 on 64;
@@ -23,3 +26,6 @@ file . "8.vhdl" "bfb315405f7e7e4fd7d5bb7cfe4527a8ec0cbb10" "20200930012002.159":
 file . "9_tb.vhdl" "3cb854756c3983d5b2f8510ccd4647738926e401" "20200930013530.464":
   entity ex_9_tb at 1( 0) + 0 on 67;
   architecture test of ex_9_tb at 7( 76) + 0 on 68;
+file . "10.vhdl" "5ce888ff44dfee6ed4f126a736c2792a30c26a4f" "20200930014536.783":
+  entity fsm_10 at 1( 0) + 0 on 69;
+  architecture exercise of fsm_10 at 10( 180) + 0 on 70;
