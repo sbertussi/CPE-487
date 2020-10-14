@@ -1,25 +1,29 @@
 v 4
+file . "3_d_tb.vhdl" "915845e8c4efd41347cb6b72f086be32e9f590fc" "20201014235115.674":
+  entity ex_3_d_tb at 1( 0) + 0 on 75;
+  architecture test of ex_3_d_tb at 7( 80) + 0 on 76;
+file . "3_d.vhdl" "1bdb52dd35717ad19582d1c7e383c07c81cec084" "20201014235036.563":
+  entity ex_3_d at 1( 0) + 0 on 73;
+  architecture exercise of ex_3_d at 9( 135) + 0 on 74;
 file . "3_c_tb.vhdl" "396b327410bd1b1492321eba0c58329d889a583a" "20201014234658.646":
   entity ex_3_c_tb at 1( 0) + 0 on 57;
   architecture test of ex_3_c_tb at 7( 80) + 0 on 58;
 file . "3_b_tb.vhdl" "4d443c8c434beb61c79d8756c0bbd89e55d2d004" "20201014234135.547":
   entity ex_3_b_tb at 1( 0) + 0 on 53;
   architecture test of ex_3_b_tb at 7( 80) + 0 on 54;
-file . "components.vhdl" "e3d2f7744d4f49919a7f11119a0690ada3960ac7" "20201014234020.037":
-  entity my_and at 1( 0) + 0 on 37;
-  architecture and_arch of my_and at 9( 131) + 0 on 38;
-  entity my_or at 14( 202) + 0 on 39;
-  architecture or_arch of my_or at 22( 331) + 0 on 40;
-  entity my_4_or at 27( 398) + 0 on 41;
-  architecture or_4_arch of my_4_or at 35( 543) + 0 on 42;
-  entity my_not at 40( 626) + 0 on 43;
-  architecture not_arch of my_not at 48( 754) + 0 on 44;
-  entity my_nand at 53( 823) + 0 on 45;
-  architecture nand_arch of my_nand at 61( 956) + 0 on 46;
-  entity my_nnor at 66( 1035) + 0 on 47;
-  architecture nnor_arch of my_nnor at 74( 1168) + 0 on 48;
-  entity my_decode_3_8 at 79( 1251) + 0 on 49;
-  architecture decode_3_8_arch of my_decode_3_8 at 87( 1421) + 0 on 50;
+file . "components.vhdl" "80c43c1f4d726473c41126cd8ea3acd60efcb683" "20201014235020.231":
+  entity my_and at 1( 0) + 0 on 59;
+  architecture and_arch of my_and at 9( 131) + 0 on 60;
+  entity my_or at 14( 202) + 0 on 61;
+  architecture or_arch of my_or at 22( 331) + 0 on 62;
+  entity my_4_or at 27( 398) + 0 on 63;
+  architecture or_4_arch of my_4_or at 35( 543) + 0 on 64;
+  entity my_nand at 40( 626) + 0 on 65;
+  architecture nand_arch of my_nand at 48( 759) + 0 on 66;
+  entity my_nnor at 53( 838) + 0 on 67;
+  architecture nnor_arch of my_nnor at 61( 971) + 0 on 68;
+  entity my_decode_3_8 at 66( 1054) + 0 on 69;
+  architecture decode_3_8_arch of my_decode_3_8 at 74( 1224) + 0 on 70;
 file . "3_a.vhdl" "97f5b5f37c48307b605c821fb11f705fee77e1a5" "20201014230558.571":
   entity ex_3_a at 1( 0) + 0 on 11;
   architecture exercise of ex_3_a at 9( 135) + 0 on 12;
@@ -29,6 +33,3 @@ file . "3_a_tb.vhdl" "c2298d05cc739adc50f8531c532343e110d37a12" "20201014230604.
 file . "3_b.vhdl" "8a408808bfdf385afeb5e26637d1b3ec4ee504b7" "20201014234129.054":
   entity ex_3_b at 1( 0) + 0 on 51;
   architecture exercise of ex_3_b at 9( 135) + 0 on 52;
-file . "3_c.vhdl" "b0c484c0e30246fb65f3087edcb73c7e4b896d31" "20201014234654.969":
-  entity ex_3_c at 1( 0) + 0 on 55;
-  architecture exercise of ex_3_c at 9( 135) + 0 on 56;

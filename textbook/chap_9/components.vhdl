@@ -40,19 +40,6 @@ end or_4_arch;
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity my_not is
-	port (A: in  std_logic;
-	      B:    out std_logic);
-end my_not;
-
-architecture not_arch of my_not is
-begin
-	B <= NOT A;
-end not_arch;
-
-library IEEE;
-use IEEE.std_logic_1164.all;
-
 entity my_nand is
 	port (A, B: in  std_logic;
 	      C:    out std_logic);
