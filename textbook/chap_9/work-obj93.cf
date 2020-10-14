@@ -1,18 +1,28 @@
 v 4
-file . "components.vhdl" "88e02266e89a8df366ac13a6bb22047f2a8efa17" "20201014231103.643":
-  entity my_and at 1( 0) + 0 on 15;
-  architecture and_arch of my_and at 9( 131) + 0 on 16;
-  entity my_or at 14( 202) + 0 on 17;
-  architecture or_arch of my_or at 22( 331) + 0 on 18;
-  entity my_not at 27( 398) + 0 on 19;
-  architecture not_arch of my_not at 35( 526) + 0 on 20;
-  entity my_nand at 40( 595) + 0 on 21;
-  architecture nand_arch of my_nand at 48( 728) + 0 on 22;
-  entity my_nnor at 53( 807) + 0 on 23;
-  architecture nnor_arch of my_nnor at 61( 940) + 0 on 24;
+file . "3_b_tb.vhdl" "4d443c8c434beb61c79d8756c0bbd89e55d2d004" "20201014234135.547":
+  entity ex_3_b_tb at 1( 0) + 0 on 53;
+  architecture test of ex_3_b_tb at 7( 80) + 0 on 54;
+file . "components.vhdl" "e3d2f7744d4f49919a7f11119a0690ada3960ac7" "20201014234020.037":
+  entity my_and at 1( 0) + 0 on 37;
+  architecture and_arch of my_and at 9( 131) + 0 on 38;
+  entity my_or at 14( 202) + 0 on 39;
+  architecture or_arch of my_or at 22( 331) + 0 on 40;
+  entity my_4_or at 27( 398) + 0 on 41;
+  architecture or_4_arch of my_4_or at 35( 543) + 0 on 42;
+  entity my_not at 40( 626) + 0 on 43;
+  architecture not_arch of my_not at 48( 754) + 0 on 44;
+  entity my_nand at 53( 823) + 0 on 45;
+  architecture nand_arch of my_nand at 61( 956) + 0 on 46;
+  entity my_nnor at 66( 1035) + 0 on 47;
+  architecture nnor_arch of my_nnor at 74( 1168) + 0 on 48;
+  entity my_decode_3_8 at 79( 1251) + 0 on 49;
+  architecture decode_3_8_arch of my_decode_3_8 at 87( 1421) + 0 on 50;
 file . "3_a.vhdl" "97f5b5f37c48307b605c821fb11f705fee77e1a5" "20201014230558.571":
   entity ex_3_a at 1( 0) + 0 on 11;
   architecture exercise of ex_3_a at 9( 135) + 0 on 12;
 file . "3_a_tb.vhdl" "c2298d05cc739adc50f8531c532343e110d37a12" "20201014230604.423":
   entity ex_3_a_tb at 1( 0) + 0 on 13;
   architecture test of ex_3_a_tb at 7( 80) + 0 on 14;
+file . "3_b.vhdl" "8a408808bfdf385afeb5e26637d1b3ec4ee504b7" "20201014234129.054":
+  entity ex_3_b at 1( 0) + 0 on 51;
+  architecture exercise of ex_3_b at 9( 135) + 0 on 52;
