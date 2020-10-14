@@ -1,4 +1,7 @@
 v 4
+file . "3_c_tb.vhdl" "396b327410bd1b1492321eba0c58329d889a583a" "20201014234658.646":
+  entity ex_3_c_tb at 1( 0) + 0 on 57;
+  architecture test of ex_3_c_tb at 7( 80) + 0 on 58;
 file . "3_b_tb.vhdl" "4d443c8c434beb61c79d8756c0bbd89e55d2d004" "20201014234135.547":
   entity ex_3_b_tb at 1( 0) + 0 on 53;
   architecture test of ex_3_b_tb at 7( 80) + 0 on 54;
@@ -26,3 +29,6 @@ file . "3_a_tb.vhdl" "c2298d05cc739adc50f8531c532343e110d37a12" "20201014230604.
 file . "3_b.vhdl" "8a408808bfdf385afeb5e26637d1b3ec4ee504b7" "20201014234129.054":
   entity ex_3_b at 1( 0) + 0 on 51;
   architecture exercise of ex_3_b at 9( 135) + 0 on 52;
+file . "3_c.vhdl" "b0c484c0e30246fb65f3087edcb73c7e4b896d31" "20201014234654.969":
+  entity ex_3_c at 1( 0) + 0 on 55;
+  architecture exercise of ex_3_c at 9( 135) + 0 on 56;
