@@ -1,4 +1,7 @@
 v 4
+file . "4_tb.vhdl" "8c5acd2cd66bf1026f3dcc61b4ee815e4a033455" "20201016015725.702":
+  entity ex_4_tb at 1( 0) + 0 on 61;
+  architecture test of ex_4_tb at 7( 76) + 0 on 62;
 file . "3_tb.vhdl" "28bc97694eb234b5cc743f73df575b7c1f0b15bf" "20201016014703.737":
   entity ex_3_tb at 1( 0) + 0 on 57;
   architecture test of ex_3_tb at 7( 76) + 0 on 58;
@@ -31,9 +34,9 @@ file . "components.vhdl" "c5bd226067038e56e4f6fa533cd6645c85d80304" "20201016012
 file . "2.vhdl" "6a2cb973565cd9df55b7d22b992bdbd99966297d" "20201016013648.021":
   entity ex_2 at 1( 0) + 0 on 51;
   architecture exercise of ex_2 at 11( 274) + 0 on 52;
-file . "4.vhdl" "3af01feb675f43024388fe7bb4ea72dfb6b26152" "20201015185953.562":
-  entity ex_4 at 1( 0) + 0 on 27;
-  architecture exercise of ex_4 at 10( 251) + 0 on 28;
+file . "4.vhdl" "3af01feb675f43024388fe7bb4ea72dfb6b26152" "20201016015716.216":
+  entity ex_4 at 1( 0) + 0 on 59;
+  architecture exercise of ex_4 at 10( 251) + 0 on 60;
 file . "1_tb.vhdl" "0c0eda2a6d2f1bcf02cf224559c9996ca89582f8" "20201016013028.897":
   entity ex_1_tb at 1( 0) + 0 on 49;
   architecture test of ex_1_tb at 7( 76) + 0 on 50;

@@ -1,0 +1,164 @@
+$date
+  Thu Oct 15 21:57:39 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module ex_4_tb $end
+$var reg 8 ! x[7:0] $end
+$var reg 8 " y[7:0] $end
+$var reg 8 # ra[7:0] $end
+$var reg 8 $ rb[7:0] $end
+$var reg 1 % lda $end
+$var reg 1 & ldb $end
+$var reg 1 ' s1 $end
+$var reg 1 ( s0 $end
+$var reg 1 ) clk $end
+$var reg 1 * rd $end
+$scope module exercise $end
+$var reg 8 + x[7:0] $end
+$var reg 8 , y[7:0] $end
+$var reg 1 - lda $end
+$var reg 1 . ldb $end
+$var reg 1 / s0 $end
+$var reg 1 0 s1 $end
+$var reg 1 1 rd $end
+$var reg 1 2 clk $end
+$var reg 8 3 ra[7:0] $end
+$var reg 8 4 rb[7:0] $end
+$var reg 8 5 tempa[7:0] $end
+$var reg 8 6 tempb[7:0] $end
+$var reg 8 7 d[7:0] $end
+$var reg 8 8 e[7:0] $end
+$var reg 1 9 templda $end
+$var reg 1 : templdb $end
+$scope module mux1 $end
+$var reg 8 ; a[7:0] $end
+$var reg 8 < b[7:0] $end
+$var reg 1 = sel $end
+$var reg 8 > c[7:0] $end
+$upscope $end
+$scope module mux2 $end
+$var reg 8 ? a[7:0] $end
+$var reg 8 @ b[7:0] $end
+$var reg 1 A sel $end
+$var reg 8 B c[7:0] $end
+$upscope $end
+$scope module rega $end
+$var reg 8 C a[7:0] $end
+$var reg 1 D ld $end
+$var reg 1 E clk $end
+$var reg 8 F b[7:0] $end
+$upscope $end
+$scope module regb $end
+$var reg 8 G a[7:0] $end
+$var reg 1 H ld $end
+$var reg 1 I clk $end
+$var reg 8 J b[7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b11111111 !
+b00000000 "
+bUUUUUUUU #
+bUUUUUUUU $
+0%
+0&
+1'
+0(
+0)
+0*
+b11111111 +
+b00000000 ,
+0-
+0.
+0/
+10
+01
+02
+bUUUUUUUU 3
+bUUUUUUUU 4
+bUUUUUUUU 5
+bUUUUUUUU 6
+b11111111 7
+b00000000 8
+09
+0:
+b11111111 ;
+b00000000 <
+1=
+b11111111 >
+bUUUUUUUU ?
+b00000000 @
+0A
+b00000000 B
+b00000000 C
+0D
+0E
+bUUUUUUUU F
+b11111111 G
+0H
+0I
+bUUUUUUUU J
+#1000000
+1%
+1*
+1-
+11
+19
+1D
+#2000000
+1)
+12
+1E
+1I
+#3000000
+b00000000 #
+0)
+0*
+01
+02
+b00000000 3
+b00000000 5
+09
+0D
+0E
+b00000000 F
+0I
+#4000000
+1&
+1.
+1:
+1H
+#5000000
+1)
+12
+1E
+1I
+#6000000
+b11111111 $
+0)
+02
+b11111111 4
+b11111111 6
+b11111111 ?
+0E
+0I
+b11111111 J
+#7000000
+1(
+1/
+b11111111 8
+1A
+b11111111 B
+b11111111 C
+#8000000
