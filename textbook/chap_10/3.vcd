@@ -1,0 +1,167 @@
+$date
+  Thu Oct 15 21:47:20 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module ex_3_tb $end
+$var reg 8 ! x[7:0] $end
+$var reg 8 " y[7:0] $end
+$var reg 8 # rb[7:0] $end
+$var reg 1 $ lda $end
+$var reg 1 % ldb $end
+$var reg 1 & s1 $end
+$var reg 1 ' s0 $end
+$var reg 1 ( clk $end
+$scope module exercise $end
+$var reg 8 ) x[7:0] $end
+$var reg 8 * y[7:0] $end
+$var reg 1 + lda $end
+$var reg 1 , ldb $end
+$var reg 1 - s1 $end
+$var reg 1 . s0 $end
+$var reg 1 / clk $end
+$var reg 8 0 rb[7:0] $end
+$var reg 8 1 tempb[7:0] $end
+$var reg 8 2 c[7:0] $end
+$var reg 8 3 d[7:0] $end
+$var reg 8 4 e[7:0] $end
+$scope module mux1 $end
+$var reg 8 5 a[7:0] $end
+$var reg 8 6 b[7:0] $end
+$var reg 1 7 sel $end
+$var reg 8 8 c[7:0] $end
+$upscope $end
+$scope module rega $end
+$var reg 8 9 a[7:0] $end
+$var reg 1 : ld $end
+$var reg 1 ; clk $end
+$var reg 8 < b[7:0] $end
+$upscope $end
+$scope module mux2 $end
+$var reg 8 = a[7:0] $end
+$var reg 8 > b[7:0] $end
+$var reg 1 ? sel $end
+$var reg 8 @ c[7:0] $end
+$upscope $end
+$scope module regb $end
+$var reg 8 A a[7:0] $end
+$var reg 1 B ld $end
+$var reg 1 C clk $end
+$var reg 8 D b[7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b11111111 !
+b00000000 "
+bUUUUUUUU #
+1$
+1%
+1&
+0'
+0(
+b11111111 )
+b00000000 *
+1+
+1,
+1-
+0.
+0/
+bUUUUUUUU 0
+bUUUUUUUU 1
+b11111111 2
+bUUUUUUUU 3
+b00000000 4
+b11111111 5
+bUUUUUUUU 6
+17
+b11111111 8
+b11111111 9
+1:
+0;
+bUUUUUUUU <
+bUUUUUUUU =
+b00000000 >
+0?
+b00000000 @
+b00000000 A
+1B
+0C
+bUUUUUUUU D
+#1000000
+b00000000 #
+1(
+1/
+b00000000 0
+b00000000 1
+b11111111 3
+b00000000 6
+1;
+b11111111 <
+b11111111 =
+1C
+b00000000 D
+#2000000
+0$
+0%
+0&
+1'
+0(
+0+
+0,
+0-
+1.
+0/
+b00000000 2
+b11111111 4
+07
+b00000000 8
+b00000000 9
+0:
+0;
+1?
+b11111111 @
+b11111111 A
+0B
+0C
+#3000000
+1(
+1/
+1;
+1C
+#4000000
+0(
+0/
+0;
+0C
+#5000000
+b11111111 #
+1%
+1(
+1,
+1/
+b11111111 0
+b11111111 1
+b11111111 2
+b11111111 6
+b11111111 8
+b11111111 9
+1;
+1B
+1C
+b11111111 D
+#6000000
+0(
+0/
+0;
+0C
+#7000000
