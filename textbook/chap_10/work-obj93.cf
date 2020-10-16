@@ -8,23 +8,26 @@ file . "5.vhdl" "462266d0b27479a5b86f26a081e8fa0c9e5f77cc" "20201015190501.799":
 file . "3.vhdl" "56e8974545cdcfcce6da77844a4ba448c3dd4998" "20201015184556.910":
   entity ex_3 at 1( 0) + 0 on 25;
   architecture exercise of ex_3 at 10( 242) + 0 on 26;
-file . "1.vhdl" "66ef8e0b2944f82ec481c158f33c673e1c6d6485" "20201015183955.516":
-  entity ex_1 at 1( 0) + 0 on 21;
-  architecture exercise of ex_1 at 10( 217) + 0 on 22;
-file . "components.vhdl" "c5bd226067038e56e4f6fa533cd6645c85d80304" "20201015010720.803":
-  entity mux_21 at 1( 0) + 0 on 11;
-  architecture mux_21_arch of mux_21 at 10( 197) + 0 on 12;
-  entity reg at 18( 342) + 0 on 13;
-  architecture reg_arch of reg at 27( 545) + 0 on 14;
-  entity decode_12 at 39( 717) + 0 on 15;
-  architecture decode_12_arch of decode_12 at 47( 881) + 0 on 16;
-  entity mux_41 at 55( 1033) + 0 on 17;
-  architecture mux_41_arch of mux_41 at 64( 1267) + 0 on 18;
-  entity not_reg at 74( 1452) + 0 on 19;
-  architecture not_reg_arch of not_reg at 83( 1663) + 0 on 20;
+file . "1.vhdl" "66ef8e0b2944f82ec481c158f33c673e1c6d6485" "20201016012820.319":
+  entity ex_1 at 1( 0) + 0 on 45;
+  architecture exercise of ex_1 at 10( 217) + 0 on 46;
+file . "components.vhdl" "c5bd226067038e56e4f6fa533cd6645c85d80304" "20201016012816.453":
+  entity mux_21 at 1( 0) + 0 on 35;
+  architecture mux_21_arch of mux_21 at 10( 197) + 0 on 36;
+  entity reg at 18( 342) + 0 on 37;
+  architecture reg_arch of reg at 27( 545) + 0 on 38;
+  entity decode_12 at 39( 717) + 0 on 39;
+  architecture decode_12_arch of decode_12 at 47( 881) + 0 on 40;
+  entity mux_41 at 55( 1033) + 0 on 41;
+  architecture mux_41_arch of mux_41 at 64( 1267) + 0 on 42;
+  entity not_reg at 74( 1452) + 0 on 43;
+  architecture not_reg_arch of not_reg at 83( 1663) + 0 on 44;
 file . "2.vhdl" "6a2cb973565cd9df55b7d22b992bdbd99966297d" "20201015184110.249":
   entity ex_2 at 1( 0) + 0 on 23;
   architecture exercise of ex_2 at 11( 274) + 0 on 24;
 file . "4.vhdl" "3af01feb675f43024388fe7bb4ea72dfb6b26152" "20201015185953.562":
   entity ex_4 at 1( 0) + 0 on 27;
   architecture exercise of ex_4 at 10( 251) + 0 on 28;
+file . "1_tb.vhdl" "0c0eda2a6d2f1bcf02cf224559c9996ca89582f8" "20201016013028.897":
+  entity ex_1_tb at 1( 0) + 0 on 49;
+  architecture test of ex_1_tb at 7( 76) + 0 on 50;
