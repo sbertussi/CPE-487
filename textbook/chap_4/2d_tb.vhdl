@@ -17,6 +17,8 @@ architecture test of ex_2d_tb is
 	signal F:	   std_logic_vector (0 downto 0);
 
 begin
+	--signals and port map as defined in textbook
+	--runs through all logical combinations of A, B, C, and D
 	exercise: ex_2d port map (A => A, B => B, C => C, D => D, F => F);
 
 	process begin

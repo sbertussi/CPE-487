@@ -7,8 +7,8 @@ end ex_4_tb;
 architecture test of ex_4_tb is
 	component ex_4		port
 		(
-			input:	in	std_logic_vector (7 downto 0);
-			F:	out	std_logic_vector (0 downto 0)
+			input:	in	std_logic_vector (7 downto 0); --bundled 8-bit input
+			F:	out	std_logic_vector (0 downto 0) --output true/false
 		);
 	end component;
 
@@ -25,6 +25,7 @@ architecture test of ex_4_tb is
 	type range_i is range 0 to 1;
 
 begin
+	--looping through various signals to test all logically possible 8-bit values
 	exercise: ex_4 port map (input => input, F => F);
 
 	process begin

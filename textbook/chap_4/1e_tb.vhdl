@@ -16,6 +16,8 @@ architecture test of ex_1e_tb is
 	signal A, B, C, F: std_logic;
 
 begin
+	--signals and port map as defined in textbook exercise
+	--runs through all logical combinations of A, B, and C
 	exercise: ex_1e port map (A => A, B => B, C => C, F => F);
 
 	process begin

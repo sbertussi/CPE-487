@@ -16,6 +16,8 @@ architecture test of ex_2b_tb is
 	signal A, B, C, D, F: std_logic;
 
 begin
+	--signals and port map as defined in textbook exercise
+	--runs through all logical combinations of A, B, C, and D
 	exercise: ex_2b port map (A => A, B => B, C => C, D => D, F => F);
 
 	process begin

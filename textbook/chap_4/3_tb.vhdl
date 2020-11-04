@@ -8,8 +8,8 @@ architecture test of ex_3_tb is
 	component ex_3
 		port
 		(
-			input:	in	std_logic_vector (7 downto 0);
-			F:	out	std_logic_vector (0 downto 0)
+			input:	in	std_logic_vector (7 downto 0); --assumed input signal was an 8 signal bundle
+			F:	out	std_logic_vector (0 downto 0) --output true/false
 		);
 	end component;
 
@@ -26,6 +26,7 @@ architecture test of ex_3_tb is
 	type range_i is range 0 to 1;
 
 begin
+	--looping of signals to test all logically possible 8-bit inputs
 	exercise: ex_3 port map (input => input, F => F);
 
 	process begin

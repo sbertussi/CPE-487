@@ -8,8 +8,8 @@ architecture test of ex_6_tb is
 	component ex_6
 	port
 		(
-			D_IN:	in	std_logic_vector (2 downto 0);
-			SZ_OUT:	out	std_logic_vector (7 downto 0)
+			D_IN:	in	std_logic_vector (2 downto 0); --3-bit input to decoder
+			SZ_OUT:	out	std_logic_vector (7 downto 0) --8-bit output of decoder
 		);
 	end component;
 
@@ -18,6 +18,7 @@ architecture test of ex_6_tb is
 begin
 	exercise: ex_6 port map (D_IN => D_IN, SZ_OUT => SZ_OUT);
 
+	--use waveform to test all logically possible 3-bit combinations
 	D0_waveform: process is
 	begin
 		D_IN(0) <= '0', '1' after 20 ns;
