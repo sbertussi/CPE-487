@@ -16,6 +16,8 @@ architecture test of ex_1d_if_tb is
 	signal A, B, C, F: std_logic;
 
 begin
+	--signals and port map align with that in textbook problem
+	--cycles through all logical combinations of A, B, and C
 	exercise: ex_1d_if port map (A => A, B => B, C => C, F => F);
 
 	process begin

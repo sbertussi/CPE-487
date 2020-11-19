@@ -8,9 +8,9 @@ architecture test of ex_6_case_tb is
 	component ex_6_case		
 	port
 		(
-			D7, D6, D5, D4, D3, D2, D1, D0:	in	std_logic_vector (7 downto 0);
-			SEL:				in	std_logic_vector (2 downto 0);
-			F:				out	std_logic_vector (7 downto 0)
+			D7, D6, D5, D4, D3, D2, D1, D0:	in	std_logic_vector (7 downto 0); --8 possible signals for MUX to select; they were set as 8-bit to allow for debugging
+			SEL:				in	std_logic_vector (2 downto 0); --3 bit selection signal
+			F:				out	std_logic_vector (7 downto 0) --output of MUX
 		);
 	end component;
 
@@ -20,6 +20,7 @@ architecture test of ex_6_case_tb is
 begin
 	exercise: ex_6_case port map (D7 => D7, D6 => D6, D5 => D5, D4 => D4, D3 => D3, D2 => D2, D1 => D1, D0 => D0, SEL => SEL, F => F);
 
+	--assign a test value to each of the eight possible inputs
 	D7 <= "10000000";
 	D6 <= "01000000";
 	D5 <= "00100000";
@@ -29,6 +30,7 @@ begin
 	D1 <= "00000010";
 	D0 <= "00000001";
 
+	--use waveform to cycle through all logically possible 8-bit combinations
 	S0_waveform: process is
 	begin
 		SEL(0) <= '0', '1' after 20 ns;

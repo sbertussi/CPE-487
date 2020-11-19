@@ -8,13 +8,13 @@ architecture test of ex_4_tb is
 	component ex_4
 		port
 		(
-			input:	in	std_logic_vector (7 downto 0);
+			input:	in	std_logic_vector (7 downto 0); 
 			F:	out	std_logic
 		);
 	end component;
 
-	signal input: std_logic_vector (7 downto 0);
-	signal F:     std_logic;
+	signal input: std_logic_vector (7 downto 0); --8 signals going into the AND gate
+	signal F:     std_logic; --output of the AND gate
 
 	type range_a is range 0 to 1;
 	type range_b is range 0 to 1;
@@ -26,6 +26,7 @@ architecture test of ex_4_tb is
 	type range_i is range 0 to 1;
 
 begin
+	--cycles through all possible input combinations for an 8-input AND gate
 	exercise: ex_4 port map (input => input, F => F);
 
 	process begin

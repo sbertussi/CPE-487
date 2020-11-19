@@ -2,14 +2,16 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity ex_7_case is
-	port(	D_IN:	in	std_logic_vector (2 downto 0);
-		SZ_OUT:	out	std_logic_vector (7 downto 0));
+	port(	D_IN:	in	std_logic_vector (2 downto 0); --3-bit input to decoder
+		SZ_OUT:	out	std_logic_vector (7 downto 0)); --8-bit output of decoder
 end ex_7_case;
 
+--implement 3:8 decoder
 architecture exercise of ex_7_case is
 begin
 	my_proc: process (D_IN)
 	begin
+		--outputs were active-low, so 000 => 11111110
 		case (D_IN) is
 			when "000"   => SZ_OUT <= "11111110";
 			when "001"   => SZ_OUT <= "11111101";

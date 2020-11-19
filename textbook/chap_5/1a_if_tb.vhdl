@@ -16,6 +16,8 @@ architecture test of ex_1a_if_tb is
 	signal A, B, F: std_logic;
 
 begin
+	--signals and port map align with that in textbook problem
+	--cycles through all logical combinations of A and B
 	exercise: ex_1a_if port map (A => A, B => B, F => F);
 
 	process begin

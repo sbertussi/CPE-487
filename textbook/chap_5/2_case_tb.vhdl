@@ -23,6 +23,8 @@ architecture test of ex_2_case_tb is
 	type range_e is range 0 to 1;
 
 begin
+	--signals as defined in problem statement
+	--cycles through all possible combinations of the five input signals
 	exercise: ex_2_case port map (A_1 => A_1, A_2 => A_2, B_1 => B_1, B_2 => B_2, D_1 => D_1, E_out => E_out);
 
 	process begin
