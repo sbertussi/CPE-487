@@ -13,7 +13,7 @@ ghdl -r ex_1a_tb --vcd=1a.vcd
 gtkwave 1a.vcd
 ```
 
-To use my tb files with your VHDL code, open the corresponding tb file. In this walkthrough, the ex_7_tb.vhdl file will be used.
+To use my tb files with your VHDL code, open the corresponding tb file. In this walkthrough, the 7_tb.vhdl file will be used.
 
 1. Go to `component ex_7` and change `ex_7` to the name of your VHDL code's entity.
 2. Take note of the comments explaining how my compnent's input/output signals are defined. Determine how your signals relate to mine. For the test bench to work properly, it is recommended your inputs and mine take the same form (i.e. your version of `D_IN` can be named whatever you want, but it should be a `std_logic_vector (2 downto 0)` for the test bench to work properly with minimal additional work.
