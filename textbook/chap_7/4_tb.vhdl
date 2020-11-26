@@ -16,6 +16,9 @@ architecture test of ex_4_tb is
 	signal S, D, CLK, R, Q, Q_N: std_logic;
 
 begin
+	--signals and port map align with that in textbook problem
+	--cycles through all combinations of S, R, and CLK
+	--values of D selected to facilitate testing of S, R, and CLK conditions
 	exercise: ex_4 port map (S => S, D => D, CLK => CLK, R => R, Q => Q, Q_N => Q_N);
 
 	process begin

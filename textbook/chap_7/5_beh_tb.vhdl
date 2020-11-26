@@ -16,6 +16,10 @@ architecture test of ex_5_beh_tb is
 	signal S, D, CLK, R, Q, Q_N: std_logic;
 
 begin
+	--signals and port map align with that in textbook problem
+	--cycles through all combinations of S, R, and CLK
+	--values of D selected to facilitate testing of S, R, and CLK conditions
+	--NOTE: D is equivalent of T for this test bench
 	exercise: ex_5_beh port map (S => S, T => D, CLK => CLK, R => R, Q => Q, Q_N => Q_N);
 
 	process begin

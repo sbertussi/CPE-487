@@ -1,18 +1,25 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
+--ports match definitions shown in textbook picture
 entity ex_1 is
 	port(	S, D, CLK, R: 	in	std_logic;
 		Q, Q_N:		out	std_logic);
 end ex_1;
 
+--implementation of D flip-flop as illustrated in the textbook
+--active low
+--asynchronous preset and clear
+--see truth table below
 architecture exercise of ex_1 is
-	signal SR: std_logic_vector (1 downto 0);
+	signal SR: std_logic_vector (1 downto 0); --signal for S and R together
 begin
-	SR <= S & R;
+	SR <= S & R; --concatenate signals S and R
 
+	--process that "activates" when SR or CLK changes
 	my_proc: process (SR, CLK)
 	begin
+		--implementation of truth table
 		case (SR) is
 			when "00"   => Q <= '0';
 				       Q_N <= '1';
@@ -21,6 +28,7 @@ begin
 			when "01"   => Q <= '1';
 				       Q_N <= '0';
 			when "11"   =>
+				--pass values only on rising edge of the clock
 				if(rising_edge(CLK)) then
 					Q <= D;
 				        Q_N <= NOT(D);
