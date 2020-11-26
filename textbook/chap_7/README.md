@@ -20,7 +20,7 @@ To use my tb files with your VHDL code, open the corresponding tb file. In this 
 3. Change the signals in the `port` section of the component to match yours.
 4. Go to the line `exercise: ex_1 port map (S => S, D => D, CLK => CLK, R => R, Q => Q, Q_N => Q_N);`
 5. Change `ex_1` to your entity's name
-6. Change the right hand side of the `=>` to match your signal names. For example, if your entity is `pineapple`, your `S` is called `A`, your `D` is called `B`, your `CLK` is called `C`, your `R` is called `D`, your `Q` is called `E`, and your `Q_N` is called `F`, the line should now read `	exercise: ex_1 port map (S => A, D => B, CLK => C, R => D, Q => E, Q_N => F);`
+6. Change the right hand side of the `=>` to match your signal names. For example, if your entity is `pineapple`, your `S` is called `A`, your `D` is called `B`, your `CLK` is called `C`, your `R` is called `D`, your `Q` is called `E`, and your `Q_N` is called `F`, the line should now read `	exercise: pineapple port map (S => A, D => B, CLK => C, R => D, Q => E, Q_N => F);`
 7. Follow the example shown above for how to run the test bench, but with the first line replaced with your VHDL file name: `ghdl -a <your file>`
 
 Note: Exercise 6 is a repeat of Exercise 5 without the last sentence.  As such, no code was generated for Exercise 6.

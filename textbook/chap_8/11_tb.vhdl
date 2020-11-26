@@ -18,6 +18,8 @@ architecture test of ex_11_tb is
 	signal Y: std_logic_vector (2 downto 0);
 
 begin
+	--signals as defined in textbook
+	--cycles through all possible states/paths as shown in textbook
 	exercise: fsm_11 port map (X1 => X1, X2 => X2, CLK => CLK, Z => Z, Y => Y);
 
 	process begin

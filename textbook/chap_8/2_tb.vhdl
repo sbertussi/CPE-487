@@ -16,6 +16,8 @@ architecture test of ex_2_tb is
 	signal X1, X2, CLK, Y0, Y1, Z: std_logic;
 
 begin
+	--signals as defined in textbook
+	--cycles through all possible states/paths as shown in textbook
 	exercise: fsm_2 port map (X1 => X1, X2 => X2, CLK => CLK, Y0 => Y0, Y1 => Y1, Z => Z);
 
 	process begin

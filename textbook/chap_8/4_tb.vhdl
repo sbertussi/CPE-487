@@ -16,6 +16,8 @@ architecture test of ex_4_tb is
 	signal X1, X2, CLK, INIT, Z1, Z2: std_logic;
 
 begin
+	--signals as defined in textbook
+	--cycles through all possible states/paths as shown in textbook
 	exercise: fsm_4 port map (X1 => X1, X2 => X2, CLK => CLK, INIT => INIT, Z1 => Z1, Z2 => Z2);
 
 	process begin
