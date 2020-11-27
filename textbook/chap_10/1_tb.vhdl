@@ -15,6 +15,8 @@ architecture test of ex_1_tb is
 	signal SEL, CLK, LDA: std_logic;
 
 begin
+	--signals as defined in illustration
+	--cycles through input signals to suffciently verify functionality of each component
 	exercise: ex_1 port map (A=>A, B=>B, SEL=>SEL, CLK=>CLK, LDA=>LDA, F=>F);
 
 	A <= "11111111";

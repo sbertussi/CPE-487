@@ -15,6 +15,8 @@ architecture test of ex_5_tb is
 	signal SL1, SL2, CLK: std_logic;
 
 begin
+	--signals as defined in illustration
+	--cycles through input signals to suffciently verify functionality of each component
 	exercise: ex_5 port map (A=>A, B=>B, C=>C, SL1=>SL1, SL2=>SL2, CLK=>CLK, RAX=>RAX, RBX=>RBX);
 
 	A <= "11111111";

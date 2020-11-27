@@ -15,6 +15,8 @@ architecture test of ex_4_tb is
 	signal LDA, LDB, S1, S0, CLK, RD: std_logic;
 
 begin
+	--signals as defined in illustration
+	--cycles through input signals to suffciently verify functionality of each component
 	exercise: ex_4 port map (X=>X, Y=>Y, LDA=>LDA, LDB=>LDB, S1=>S1, S0=>S0, CLK=>CLK, RB=>RB, RD => RD, RA=>RA);
 
 	X <= "11111111";

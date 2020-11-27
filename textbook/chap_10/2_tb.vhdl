@@ -17,6 +17,8 @@ architecture test of ex_2_tb is
 	signal MS: std_logic_vector(1 downto 0);
 
 begin
+	--signals as defined in illustration
+	--cycles through input signals to suffciently verify functionality of each component
 	exercise: ex_2 port map (X=>X, Y=>Y, Z=>Z, RA=>RA, RB=>RB, DS=>DS, CLK=>CLK, MS=>MS);
 
 	X <= "11111111";
