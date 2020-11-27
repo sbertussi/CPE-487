@@ -16,6 +16,8 @@ architecture test of ex_3_a_tb is
 	signal A, B, C, F: std_logic;
 
 begin
+	--signals as defined in textbook illustration
+	--cycles through all possible combinations of A, B, and C
 	exercise: ex_3_a port map (A=>A, B=>B, C=>C, F=>F);
 
 	process begin
