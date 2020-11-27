@@ -30,6 +30,7 @@ BEGIN
 	       "0110000" WHEN data = "1110" ELSE --E
 	       "0111000" WHEN data = "1111" ELSE --F
 	       "1111111";
+	       
 	-- Turn on anode of 7-segment display addressed by 2-bit digit selector dig
 	anode <= "1110" WHEN dig = "00" ELSE --0
 	         "1101" WHEN dig = "01" ELSE --1
