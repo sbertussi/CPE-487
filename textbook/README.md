@@ -7,3 +7,6 @@ Note that the following chapters do not have any end of chapter exercises:
 - Chapter 1
 - Chapter 2
 - Chapter 6
+- Chpater 11
+- Chapter 12
+- Chapter 13
